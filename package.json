@@ -6,9 +6,7 @@
   "scripts": {
     "build": "tsc --skipLibCheck",
     "start": "node dist/index.js",
-    "dev": "ts-node --project tsconfig.json index.ts",
-    "dev:watch": "nodemon -x \"ts-node --project tsconfig.json index.ts\"",
-    "check": "tsc --noEmit"
+    "dev": "ts-node --project tsconfig.json index.ts"
   },
   "author": "x2roxz",
   "license": "ISC",
